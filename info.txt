@@ -1,0 +1,41 @@
+temp1.php sign in page
+lite44.css for sign in page
+buildinternet-supersized-2ccedfd for slideshow
+pro2.php regstration page
+pro3.php thank you page
+lite.css for styling pro2.htm and pro3.htm
+u7.php database page
+pro4.php homepage
+litein.css styling page
+ass.php image page
+lite3.css for styling image page
+lightbox for image display
+del1.php for deleting page
+hover-master to hover the buttons
+pro6.php for about me page
+u8.php for updating database
+logout.php for logout page
+lite444.css for logout styling
+ser.php for guest searching
+llite.css and lliite.css for styling guest searching page
+gethint.php for ajax searching
+lightbox is used for dipslaying images
+check.php for displaying searched images
+lightbox is used
+llite4.css is used for styling check.php
+ser1.php for guest searching
+llite.css and lliite.css for styling guest searching page
+gethint.php for ajax searching
+lightbox is used for dipslaying images
+check1.php for displaying searched images
+lightbox is used
+llite44.css is used for styling check1.php
+error.php for login error
+
+
+
+font change
+search page site main transition
+
+
+

@@ -1,0 +1,7 @@
+
+			<tr> <td class="att_but"> Kashi Vishwanath Temple </td> </tr>
+			<tr> <td class="att_but"> Sarnath </td> </tr>
+			<tr> <td class="att_but"> BHU </td> </tr>
+			<tr> <td class="att_but"> Dashashwamedh Ghat </td> </tr>
+			<tr> <td class="att_but"> Ramnagar Fort </td> </tr>
+			<tr> <td class="att_but"> Assi Ghat </td> </tr>

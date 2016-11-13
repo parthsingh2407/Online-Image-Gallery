@@ -1,0 +1,57 @@
+
+<html>
+<head>
+	<title> How To Reach Vanarasi </title>
+	<link rel="stylesheet" type="text/css" href="lite.css">
+<script src=" /Applications/XAMPP/xamppfiles/htdocs/js-global/FancyZoom.js " type="text/javascript">
+</script>
+<script src=" /Applications/XAMPP/xamppfiles/htdocs/js-global/FancyZoomHTML.js " type="text/javascript"></script>
+</head>
+<body onload="setupZoom()">
+
+<?php
+$connection=mysql_connect("localhost","root","");
+//echo "connection established"."<br>";
+$db=mysql_select_db("db");
+//echo "database selected"."<br>";
+$query1='select * from users';		
+$result1=mysql_query($query1);
+while($row=mysql_fetch_array($result1))
+{	
+	
+	if($row['username']==$_SESSION['name'])
+	{	$f=1;
+		$image=$row['profilepic'];
+		
+	}
+}
+echo "<img src='156.jpg' id=\"pic\">"."<br>";
+?>
+<div id="site_main">
+	<div id="site_content">
+		<div id="header_div">
+			<style="vertical-align:bottom;">&nbsp &nbsp Picasa
+		</div>
+</div>
+<div id="site_content1">
+<table>
+		<tr> <td> <div id="side_menu">
+			<table id="smenu" cellspacing="5px" cellpadding="7px">
+			<tr> <td class="m_top"> <a href="about_city.html"> About Me</a> </td> </tr>
+			<tr> <td class="m_top"> <a href="culture.html"> Photos</a> </td> </tr>
+			<tr> <td class="m_top"> <a href="locmap.html"> Locate Friends </a> </td> </tr>
+			<tr> <td class="m_top"> <a href="howto.html"> Search</a> </td> </tr>
+			</table>
+		</div> </td>
+		<td>
+		<div id="home_main">
+
+
+		</div>
+		</td></tr> </table>
+
+</div>
+	
+</div>
+</body>
+</html>

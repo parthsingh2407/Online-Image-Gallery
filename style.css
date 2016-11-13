@@ -1,0 +1,72 @@
+body
+{
+ background-image:url("bodybg.png");
+ background-size: cover;
+}
+#site_main
+{
+ background-image:url("bg.jpg");
+ background-repeat:none;
+ background-size: cover;
+ margin: 30px 95px;
+ width: 1140px;
+ height: 600px;
+ position:center;
+ border: solid 1px #000000;
+ box-shadow: 3px 3px 1px #333333;
+ overflow: hidden;
+ border-radius:15px;
+}
+
+#site_content
+{
+ width: 1120px;
+ height: 460px;
+ position:center;
+ border-radius:15px;
+}
+
+#header_div
+{
+ width: 1120px;
+ height: 100px;
+ font-family:hdngFont;
+ font-size: 60px;
+ color: white;
+ overflow:hidden;
+ border-radius:15px;
+ 
+}
+
+#side_menu
+{
+ width: 280px;
+ height: 300px;
+ margin: 5px;
+ overflow:hidden;
+}
+
+#smenu
+{
+ width: 240px;
+ height: 280px;
+ margin: 5px 5px 5px 5px;
+ overflow:hidden;
+}
+
+/*Formatting the butons created for attractions*/
+.att_but
+{
+ width: 240px;
+ height: 30px;
+ border: solid 1px #000000;
+ background: #FFFFFF;
+ box-shadow: 1px 1px #7653EE;
+ border-radius:5px;
+}
+/*For a Custom Font Used in the Page*/
+@font-face
+{
+font-family: hdngFont;
+src: url(BRUSHSCI.ttf);
+}

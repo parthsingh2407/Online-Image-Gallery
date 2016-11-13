@@ -1,0 +1,137 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm()
+{
+var x=document.forms["myForm"]["fname"].value;
+var y=document.forms["myForm"]["lname"].value;
+var p=document.forms["myForm"]["uname"].value;
+var q1=document.forms["myForm"]["pass"].value;
+var q2=document.forms["myForm"]["cpass"].value;
+var gen=0;
+var g=new Array();
+g[1]="Gender ";
+g[0]=" ";
+var male=document.getElementById("Male").checked;
+var female=document.getElementById("Female").checked;
+if(male==false && female==false)
+{
+gen++;
+}
+if(male==true)
+{document.cookie=male;}
+
+if(female==true)
+{document.cookie=female;}
+
+var pro1=0;
+var ffname=0;
+var llname=0;
+var uuname=0;
+var ppass=0;
+var k=new Array();
+k[1]="First name ";
+k[0]=" ";
+var j=new Array();
+j[1]="Last name ";
+j[0]=" ";
+var l=new Array();
+l[1]="Username ";
+l[0]=" ";
+var m=new Array();
+m[1]="Password ";
+m[0]=" ";
+var pro=new Array();
+pro[1]="Profession ";
+pro[0]=" ";
+if (x==null || x=="")
+  {
+  ffname++;
+  }
+if(y==null||y=="")
+{
+llname++;
+ }
+if(p==null||p=="")
+{
+uuname++;
+ }
+if(q1==null||q1==""||q2==null||q2=="")
+{
+ppass++;
+ }
+var e = document.getElementById("Profession");
+var strUser = e.options[e.selectedIndex].value;
+
+var strUser1 = e.options[e.selectedIndex].text;
+if(strUser==0)
+{
+pro1++;
+}
+if(gen!=0||ffname!=0||llname!=0||uuname!=0||ppass!=0)
+{
+alert(k[ffname]+j[llname]+l[uuname]+m[ppass]+g[gen]+pro[pro1]+"is not filled");
+return false;
+  }
+if(q1!=q2)
+{
+alert("Enter a correct password");
+document.forms["myForm"]["pass"].value="";
+document.forms["myForm"]["cpass"].value="";
+return false;
+}
+}
+</script>
+
+	<title> How To Reach Vanarasi </title>
+	<link rel="stylesheet" type="text/css" href="lite.css">
+</head>
+<body>
+<form name="myForm" action="u7.php" onsubmit="return validateForm()" method="get">
+<div id="site_main">
+	<div id="site_content">
+		<div id="header_div">
+			<style="vertical-align:bottom;">&nbsp &nbsp Picasa
+		</div>
+</div>
+<div id="site_content1">
+<table>
+		<tr> <td> <div id="side_menu">
+			<table id="smenu" cellspacing="5px" cellpadding="7px">
+			<tr> <td class="m_top"> <a href="about_city.html"> About Me</a> </td> </tr>
+			<tr> <td class="m_top"> <a href="culture.html"> Photos</a> </td> </tr>
+			<tr> <td class="m_top"> <a href="locmap.html"> Locate Friends </a> </td> </tr>
+			<tr> <td class="m_top"> <a href="howto.html"> Search</a> </td> </tr>
+			</table>
+		</div> </td>
+		<td>
+		<div id="home_main">
+
+First name: <input type="text" name="fname"></t>
+Last name: <input type="text" name="lname"></br>
+Username: <input type="text" name="uname"></br>
+Password: <input type="password" name="pass"></br>
+Confirm Password: <input type="password" name="cpass"></br>
+Gender: <input type="radio" name="gen" id="Male">Male</t>
+<input type="radio" name="gen" id="Female">Female</br>
+Profession <select id="Profession" name="profe">
+<option value="0">Select</option>
+<option value="1">Student</option>
+<option value="2">Service</option>
+<option value="3">Businessman</option>
+</select>  
+Birthday: <input type="date" name="bday">
+<input type="submit" value="Submit">
+
+		</div>
+		</td></tr> </table>
+
+</div>
+	
+</div>
+</form>
+</body>
+</html>

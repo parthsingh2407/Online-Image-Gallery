@@ -1,0 +1,247 @@
+body
+{
+ background-image:url("photo2.jpg");
+ background-size: cover;
+}
+a{outline: none;}
+
+a, a:link, a:visited 
+{
+  color:#000000;
+  text-decoration:none;
+}
+a:hover 
+{
+  text-decoration:none;
+  color:#000000;
+  text-shadow: 1px 1px #444444; 
+}
+
+#color{
+background-color:#FF6666;
+width: 130px;
+ height: 500px;
+
+}
+
+#collor{
+background-color:#3399FF;
+ width: 1140px;
+ height:48px;
+padding-top:30px;
+}
+
+
+#site_main
+{
+ background-image:url("white1.jpg");
+ background-repeat:none;
+ background-size: cover;
+ margin: 45px 135px;
+ width: 1140px;
+ height: 600px;
+ position:center;
+ border: solid 1px #000000;
+ box-shadow: 3px 3px 1px #333333;
+ overflow: hidden;
+
+}
+
+#home_main
+{display:table-cell; 
+ width: 700px;
+ margin: 10px;
+ 
+ height: 320px;
+ font-family: Herculanum;
+ font-size:22px;
+ padding: 20px;
+  position: absolute; top: 26%; left:32%;
+}
+
+#site_content
+{
+ 
+ position:center;
+ border-radius:15px;
+overflow: auto;
+overflow-x: hidden;
+}
+
+#site_content1
+{
+ width: 1120px;
+ height: 460px;
+ position:center;
+ 
+border-radius:15px;
+
+margin-top:100px;
+
+}
+
+
+#header_div
+{
+ width: 1140px;
+ height:78px;
+
+color:#888888;
+
+
+ font-family:herculanum;
+ font-size: 60px;
+ box-shadow: 1px 1px 1px 1px #000000;
+
+overflow:hidden;
+position:absolute;
+
+
+}
+
+#side_menu
+{
+ color:#FFFFFF;
+ width: 270px;
+ height: 500px;
+ text-align: center;
+ margin: 0px 0px 3px 0px; 
+font-family:herculanum;
+ overflow: auto;
+overflow-x: hidden;
+}
+
+
+#smenu
+{
+box-shadow: 0px 0px 0px #000000;
+ width: 240px;
+ height: 280px;
+ margin: 5px 5px 5px 5px;
+ 
+}
+#pic
+{
+max-width: 250px;
+max-height: 280px;
+margin: 5px 40px 5px 5px;
+box-shadow: 0px 0px 0px 3px #000;
+
+//margin:auto;
+//display:block;
+}
+#logout
+{
+font-family:herculanum;
+font-size: 20px;
+position:absolute;
+margin-top:5px;
+margin-left:1050px
+}
+.m_top
+{
+ width: 240px;
+ height: 50px;
+ border: solid 1px #000000;
+
+ color:#EBACEE;
+ text-align:center;
+ box-shadow: 1px 1px #000000;
+ border-radius:5px;
+}
+
+.m_top:hover
+{
+ width: 250px;
+ height: 60px;
+ border: solid 1px #000000;
+background-image:url("p1.jpg");
+ color:#EBACEE;
+ 
+ text-align:center;
+ box-shadow: 1px 1px #000000;
+ border-radius:5px;
+}
+
+
+/*Formatting the butons created for attractions*/
+.att_but
+{
+ width: 240px;
+ height: 30px;
+ border: solid 1px #000000;
+ background: #FFFFFF;
+ box-shadow: 1px 1px #000000;
+ border-radius:5px;
+}
+/*For a Custom Font Used in the Page*/
+@font-face
+{
+font-family: hdngFont;
+src: url(BRUSHSCI.ttf);
+}
+
+.hover-shadow {
+  display: inline-block;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+text-align:center;
+
+}
+.hover-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+text-align:center;
+}
+.hover-shadow:hover, .hover-shadow:focus, .hover-shadow:active {
+  -webkit-transform: translateY(-6px);
+  transform: translateY(-6px);
+  animation-name: hover;
+  animation-duration: 1.5s;
+  animation-delay: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.hover-shadow:hover:before, .hover-shadow:focus:before, .hover-shadow:active:before {
+  opacity: .8;
+  -webkit-transform: translateY(6px);
+  transform: translateY(6px);
+  -webkit-animation-name: hover-shadow;
+  animation-name: hover-shadow;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+text-align:center;
+}
+
+.inside { width: 270px; overflow: auto; height: 500px; padding-right: 20px; }
+
+
+.outside { width: 270px; height: 500px; overflow: hidden; }

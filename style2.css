@@ -1,0 +1,154 @@
+body
+{
+ background-image:url("bodybg.png");
+ background-size: cover;
+}
+
+a{outline: none;}
+
+a, a:link, a:visited 
+{
+  color:#FF7F50;
+  text-decoration:none;
+}
+a:hover 
+{
+  text-decoration:underline;
+  color:#EE0000;
+  text-shadow: 1px 1px #444444; 
+}
+
+#site_main
+{
+ background-image:url("bg3.jpg");
+ background-size: cover;
+ margin: 30px 95px;
+ width: 1140px;
+ height: 600px;
+ position:center;
+ border: solid 1px #000000;
+ box-shadow: 3px 3px 1px #333333;
+ overflow: hidden;
+ border-radius:15px;
+}
+#home_main
+{
+ width: 800px;
+ margin: 10px;
+ height: 320px;
+ font-family: Trebuchet MS;
+ font-size:20px;
+ padding: 5px;
+ border-radius:15px;
+}
+#site_content
+{
+ width: 1140px;
+ height: 460px;
+ position:center;
+ border-radius:15px;
+}
+#site_content1
+{
+ width: 1120px;
+ height: 460px;
+ position:center;
+ border-radius:15px;
+overflow: auto;
+overflow-x: hidden;
+margin-top:100px;
+}
+
+#header_div
+{
+ background-image:url("head.jpg");
+ background-repeat:none;
+ background-size:1140px 110px;
+ width: 1140px;
+ height: 110px;
+ font-family:hdngFont;
+ box-shadow: 0px 3px 1px #333333;
+ font-style:italic;
+ font-size: 80px;
+ text-align: center;
+ color: black;
+ overflow:hidden;
+ border-radius:3px;
+ 
+}
+
+#side_menu
+{
+ box-shadow: 3px 0px 0px #333333;
+ width: 280px;
+ height: 320px;
+ text-align: center;
+ margin: 0px 0px 3px 0px; 
+ overflow:hidden;
+}
+
+#smenu
+{
+ width: 260px;
+ height: 300px;
+ margin: 10px 10px 10px 10px;
+ overflow:hidden;
+}
+
+/*Formatting the butons created for attractions*/
+.att_but
+{
+ width: 240px;
+ height: 30px;
+ text-align:center;
+ border: solid 1px #000000;
+ background: #FFFFFF;
+ box-shadow: 1px 1px #7653EE;
+ border-radius:5px;
+}
+
+.att_but:hover
+{
+ width: 240px;
+ height: 30px;
+ border: solid 1px #000000;
+ background: #775873;
+ color:#EBACEE;
+ text-align:center;
+ box-shadow: 1px 1px #7653EE;
+ border-radius:5px;
+}
+
+.m_top
+{
+ width: 240px;
+ height: 50px;
+ border: solid 1px #000000;
+ background: #332233;
+ color:#EBACEE;
+ text-align:center;
+ box-shadow: 1px 1px #7653EE;
+ border-radius:5px;
+}
+
+.m_top:hover
+{
+ width: 250px;
+ height: 60px;
+ border: solid 1px #000000;
+ background: #443344;
+ color:#EBACEE;
+ 
+ text-align:center;
+ box-shadow: 1px 1px #7653EE;
+ border-radius:5px;
+}
+/*Formatting the Main Menu Buttons*/
+
+
+/*For a Custom Font Used in the Page*/
+@font-face
+{
+font-family: hdngFont;
+src: url(ALGER.ttf);
+}

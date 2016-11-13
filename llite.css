@@ -1,0 +1,38 @@
+
+#tt
+{width:224px;box-shadow: 1px 1px 1px #888888;
+
+}
+#txtHint
+{
+
+color:#888888;
+  text-decoration:none;
+font-family: Herculanum;
+}
+
+.wrapper {
+    border:0px solid #888888;
+    display:inline-block;
+    position:relative;
+ background-color:white;
+
+}
+
+input,
+button {
+    background-color:white;
+   
+}
+
+
+button {
+    position:absolute;
+    right:0;
+    top:0;
+color:#888888;
+}
+
+input {
+    padding-right:30px; /* button padding */
+}

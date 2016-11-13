@@ -1,0 +1,48 @@
+AJAX:
+<script language="javascript">
+var XMLHttpRequestObject=false;
+if(window.XMLHttpRequest)
+	XMLHttpRequestObject=new XMLHttpRequest();
+else
+if(window.ActiveXObject)
+	XMLHttpRequestObject=new ActiveXObject(Microsoft.XMLHttp);
+function getData(datasource,divId)
+{
+if(XMLHttpRequestObject)
+{
+var obj=getElementById(divId)
+XMLHttpRequestObject.open("GET",datasource);
+XMLHttpRequestObject.onreadystatechanged=
+function()
+{
+if(XMLHttpRequestObject.readyState==4&&XMLHttpRequestObject.status==200)
+{
+obj.innerHTML=XMLHttpRequestObject.responseText;
+}
+}
+XMLHttpRequestObject.send(null);
+}
+}
+</script>
+
+//for implementation
+<html>
+<body>
+<input type="submit" value="fetch the message" onclick=setdata("data.txt",targetDiv)/>
+<div id=targetDiv>
+<p>the fetched message will appear here</p>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

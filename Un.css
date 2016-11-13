@@ -1,0 +1,138 @@
+body
+{
+ background-image:url("bodybg.png");
+ background-size: cover;
+}
+a{outline: none;}
+
+a, a:link, a:visited 
+{
+  color:#FF7F50;
+  text-decoration:none;
+}
+a:hover 
+{
+  text-decoration:underline;
+  color:#EE0000;
+  text-shadow: 1px 1px #444444; 
+}
+
+#site_main
+{
+ background-image:url("V.jpg");
+ background-repeat:none;
+ background-size: cover;
+ margin: 30px 95px;
+ width: 1140px;
+ height: 600px;
+ position:center;
+ border: solid 1px #000000;
+ box-shadow: 3px 3px 1px #333333;
+ overflow: hidden;
+ border-radius:15px;
+}
+#home_main
+{
+ width: 800px;
+ margin: 10px;
+ height: 320px;
+ font-family: Trebuchet MS;
+ font-size:20px;
+ padding: 5px;
+ border-radius:15px;
+}
+
+#site_content
+{
+ 
+ position:center;
+ border-radius:15px;
+overflow: auto;
+overflow-x: hidden;
+}
+
+#site_content1
+{
+ width: 1120px;
+ height: 460px;
+ position:center;
+ border-radius:15px;
+overflow: auto;
+overflow-x: hidden;
+margin-top:100px;
+}
+
+
+#header_div
+{
+ width: 1120px;
+ height: 100px;
+ font-family:hdngFont;
+ font-size: 60px;
+ color: black;
+ position:fixed;
+
+}
+
+#side_menu
+{
+ 
+ width: 280px;
+ height: 320px;
+ text-align: center;
+ margin: 0px 0px 3px 0px; 
+ 
+}
+
+
+#smenu
+{
+box-shadow: 3px 0px 0px #333333;
+ width: 240px;
+ height: 280px;
+ margin: 5px 5px 5px 5px;
+ overflow:hidden;
+position:fixed;
+}
+.m_top
+{
+ width: 240px;
+ height: 50px;
+ border: solid 1px #000000;
+
+ color:#EBACEE;
+ text-align:center;
+ box-shadow: 1px 1px #7653EE;
+ border-radius:5px;
+}
+
+.m_top:hover
+{
+ width: 250px;
+ height: 60px;
+ border: solid 1px #000000;
+ background: #443344;
+ color:#EBACEE;
+ 
+ text-align:center;
+ box-shadow: 1px 1px #7653EE;
+ border-radius:5px;
+}
+
+
+/*Formatting the butons created for attractions*/
+.att_but
+{
+ width: 240px;
+ height: 30px;
+ border: solid 1px #000000;
+ background: #FFFFFF;
+ box-shadow: 1px 1px #7653EE;
+ border-radius:5px;
+}
+/*For a Custom Font Used in the Page*/
+@font-face
+{
+font-family: hdngFont;
+src: url(BRUSHSCI.ttf);
+}
